@@ -1,0 +1,309 @@
+*{
+    font-family: 'Mercury Text G1 Roman';
+    font-size: 16px;
+    
+}
+.navbar{
+    background-color:#004F71;
+    height: 68px;
+    border-radius: 0.2rem;
+    
+}
+.flag{
+    width: 32px;
+    height: 20px;
+    margin-left: 8px;
+    
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+
+.nav-link, .text{
+    color:#fff;
+    font-size:16px;
+    font-weight: bold;
+    font-family: 'Brandon Frotesque Bold';
+    cursor: pointer;
+    padding:6px;
+}
+ .text{
+    padding: 12px 8px;
+    margin-top: 25px;
+    
+} 
+
+.abbott{
+    padding: 11px 5px 12px 80px;
+    background: #6695aa;
+    border-left: 20px solid #33728d;
+    width:100%;
+    height: 68px;
+    margin-right:-75px;
+    
+}
+/* sub-navbar styles */
+.header{
+  margin-top: -20px;  
+   
+} 
+.logo{
+    width: 250px;
+    height: 85px;
+    margin-top: 38px;
+    margin-left: 25px;
+    margin-right: 10px;
+}
+ .sub-nav{
+    display: flex;
+}
+
+.nav-bar  {
+    list-style: none; 
+    padding: 60px; 
+}
+
+.nav-item {
+    text-align: right;
+    display: inline-block; 
+    margin-right: 75px;
+     
+}
+
+.items{ 
+    color:#01ae41;
+    font-size:25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Brandon Frotesque Bold';
+    cursor: pointer;
+    padding:6px;
+    border-bottom:10px solid #01ae41;
+}
+ .items:hover{
+    border-bottom:35px solid #01ae41;
+   
+} 
+  /*Wrapper content */
+.wrapper{
+        margin-top: -40px;
+        background-image: url("./Images/baby-picking-spinach.png");
+        background-size: cover;
+        align-items: center;
+        height: 750px;
+        flex-direction: column;
+        justify-content: center;
+  
+    
+}
+.section{
+        color:#ffffff;
+        position: relative;
+        text-align: center;
+        padding: 140px;
+        
+     
+}
+.section span{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-right: 380px;
+    margin-left: 280px;
+}
+
+.content{
+    align-items: center;
+}
+
+.search-container {
+        
+        align-items: center;
+        position: relative; 
+        margin-left: 440px;
+        margin-top:-100px; 
+        
+        
+ }
+
+.search-input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 3rem;
+        width:380px;
+ }
+
+ .search-icon {
+        margin-left: -35px;
+        cursor: pointer;
+        color: #01ae41;
+        
+}
+    
+.first,.second {
+        display: inline-block;
+        letter-spacing: 1px;
+      
+        
+}
+.first{
+        
+        margin-top: 30px;
+        margin-left: 460px;
+} 
+.second{
+    margin-left: 300px;
+}
+.first span, .second span{
+    font-size: 35px;
+    color: #fff;
+    font-family: "Brandon Grotesque Bold";
+    text-transform: uppercase;
+}
+  /* Cards content */
+  .card-container{
+    height: auto;
+    background-color: #CCC;
+  }
+  .card1,.card2,.card3{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 50px 50px 44px 50px;
+    background: #FFF;
+    float: left;
+    box-shadow: 0 0 20px #CCC;
+    -webkit-box-shadow: 0 0 20px #CCC;
+    -moz-box-shadow: 0 0 20px #CCC;
+    margin-bottom: 30px;
+    width: 85%;
+    
+    margin-left: 80px;
+    
+    
+  }
+  .card1{
+    margin-top: -120px;
+    margin-left: 80px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 25px; 
+    margin-bottom: 0.5rem; 
+    font-family: "Brandon Grotesque Black";
+    font-weight: bold;
+    color: #63666A;
+    line-height: 1.2;
+  }
+  .card-text {
+    font-size: 20px; 
+    margin-bottom: 30px;
+  }
+  
+  .card-img {
+    max-width: 100%;
+    height: 340px;
+    margin-top: 30px;
+  }
+  
+.btn {
+    display: block;
+    width: 50%;
+    padding: 0.5rem 1rem;
+    background-color:#01ae41;
+    color: #fff;
+    border: none;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    margin-top: 45px;
+    font-weight: bold;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* footer styles*/
+
+  .footer {
+    width:inherit;
+    height: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 20px;
+}
+
+.top-part, .bottom-part {
+  padding: 10px;
+}
+.top-left,.top-right,.bottom-left,.bottom-right{
+  width:50%;
+  height:auto;
+ 
+}
+.top-left{
+  background-color: #02417f;
+  padding: 15px;
+  font-size: 20px;
+}
+.top-right {
+   padding: 80px;
+   background-color: #33728d;
+}
+
+.bottom-part {
+    background-color:#3d7e9c;
+    display: flex;
+    flex-wrap: wrap;
+   float: left;
+}
+.footer{
+  display: flex;
+  justify-content: flex-end; 
+  color: #fff;
+  padding: 20px;
+}
+
+.top-right {
+  text-align: center;
+}
+
+.social-media-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-icons li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-media-icons a {
+  color: #fff;
+  font-size: 28px;
+  text-decoration: none;
+}
+.bottom-left ul li {
+  list-style-type: none;
+
+}
+.inner{
+  border-right:10px solid white;
+  margin-left: 5px;
+  padding: 5px;
+}
+.bottom-right{
+  display: flex;
+  background-color: #02417f;
+  padding: 40px;
+}
+.bottom-right p{
+  margin-right: 10px;
+  
+}
+.disclaim p{
+  color:#004F71;
+}
