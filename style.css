@@ -307,3 +307,80 @@
 .disclaim p{
   color:#004F71;
 }
+
+
+/* tablet-sized screens */
+@media only screen and (max-width: 768px) {
+    .logo {
+        width: 200px;
+        height: 68px;
+    }
+
+    .abbott {
+        padding: 11px 5px 12px 30px;
+        margin-right: -15px;
+    }
+
+    .nav-bar {
+        padding: 10px;
+    }
+
+    .nav-item {
+        margin-right: 30px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/*  smaller screens */
+@media only screen and (max-width: 480px) {
+    .logo {
+        width: 150px;
+        height: 50px;
+    }
+
+    .abbott {
+        padding: 11px 5px 12px 10px;
+        margin-right: -10px;
+    }
+
+    .nav-link,
+    .text {
+        font-size: 14px;
+    }
+
+    .nav-bar {
+        padding: 5px;
+    }
+
+    .nav-item {
+        margin-right: 15px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .search-container {
+        margin-left: 10px;
+        margin-top: -50px;
+    }
+
+    .search-input {
+        width: 220px;
+    }
+
+    .section span {
+        font-size: 25px;
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+}
